@@ -1,0 +1,740 @@
+{
+    "mid": "6372b1fa43d4e8dfd882aa95",
+    "id": "pixelsNFTFarm-4795",
+    "name": "Farm Land #4795",
+    "guild": "",
+    "type": "pixelsNFTFarm",
+    "world": 0,
+    "conditions": { "canWarp": false, "maxSoils": 60, "maxIndustries": 4 },
+    "labels": ["land", "exterior"],
+    "ownerAddress": "0x13a37fea8b4a55d7e9bd7b61ac80dda496f9ec56",
+    "nft": {
+      "tokenId": "4795",
+      "image": "https://hang.mypinata.cloud/ipfs/QmRJSjDZqQu5yoUbBtMXhLp4T9czmpUmfpBg6ntLzbjMUV/4795.png",
+      "name": "Farm Land #4795",
+      "traits": {
+        "coop": "yes",
+        "environment": "land",
+        "house": "small",
+        "land": "standard",
+        "size": "large",
+        "treeDensity": "light"
+      }
+    },
+    "createdAt": 1656030125155,
+    "templateName": "landNFTLargeTemplate",
+    "restrictions": { "allowedAddresses": [], "allowedNFTs": [] },
+    "ownership": {
+      "forSale": false,
+      "forRent": false,
+      "rented": false,
+      "notUsableUntil": 0,
+      "lastClaim": 1710569548674
+    },
+    "permissions": {
+      "accessHouse": ["Manager", "Builder", "Visitor"],
+      "surplusAccess": ["OWNER", "Manager"],
+      "upgradeEntity": [],
+      "build": ["OWNER", "Manager", "Builder"],
+      "use": ["ANY"],
+      "remove": ["OWNER", "Manager"],
+      "editFarmConfig": ["Manager"],
+      "editMapMembers": ["Manager"],
+      "sendFarmInvite": ["Manager", "Builder"],
+      "banPlayer": ["Manager", "Builder"],
+      "storageAccess": ["OWNER"],
+      "addDiscoverability": ["ANY"]
+    },
+    "members": [],
+    "chatMessages": [],
+    "players": {
+      "dwsVAHPLh": {
+        "mid": "dwsVAHPLh",
+        "isGuest": true,
+        "position": { "x": 3320, "y": 3324 },
+        "velocity": { "x": 0, "y": 0 },
+        "username": "Guest-the-traveling-tourist",
+        "currentAvatar": { "id": "players", "pieces": "{}" },
+        "playerAvatar": "{}",
+        "typingTimestamp": 0,
+        "memberships": {},
+        "modifiers": [],
+        "trustScore": 0
+      }
+    },
+    "entities": {
+      "6372b1e843d4e8dfd88281b5": {
+        "position": { "x": 2720, "y": 2000 },
+        "mid": "6372b1e843d4e8dfd88281b5",
+        "entity": "ent_treeLand1v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596066227,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578066227" },
+            { "numeric": true, "name": "lastChop", "value": "1710569966227" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281ce": {
+        "position": { "x": 3040, "y": 2816 },
+        "mid": "6372b1e843d4e8dfd88281ce",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281d0": {
+        "position": { "x": 3104, "y": 2816 },
+        "mid": "6372b1e843d4e8dfd88281d0",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281da": {
+        "position": { "x": 3104, "y": 2880 },
+        "mid": "6372b1e843d4e8dfd88281da",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281ac": {
+        "position": { "x": 3472, "y": 2618 },
+        "mid": "6372b1e843d4e8dfd88281ac",
+        "entity": "ent_smallHouse",
+        "label": "house",
+        "generic": {
+          "current": 0,
+          "state": "default",
+          "displayInfo": { "format": "", "values": [] },
+          "trackers": [],
+          "statics": []
+        }
+      },
+      "6372b1e843d4e8dfd88281b2": {
+        "position": { "x": 2496, "y": 2600 },
+        "mid": "6372b1e843d4e8dfd88281b2",
+        "entity": "ent_treeLand1v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596248210,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578248210" },
+            { "numeric": true, "name": "lastChop", "value": "1710570148210" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281b4": {
+        "position": { "x": 2632, "y": 2352 },
+        "mid": "6372b1e843d4e8dfd88281b4",
+        "entity": "ent_treeLand1v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596077199,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578077199" },
+            { "numeric": true, "name": "lastChop", "value": "1710569977199" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281b9": {
+        "position": { "x": 3656, "y": 2552 },
+        "mid": "6372b1e843d4e8dfd88281b9",
+        "entity": "ent_treeLand2v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596014168,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578014168" },
+            { "numeric": true, "name": "lastChop", "value": "1710569914168" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281bd": {
+        "position": { "x": 3688, "y": 1888 },
+        "mid": "6372b1e843d4e8dfd88281bd",
+        "entity": "ent_treeLand3v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710591623762,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710573623762" },
+            { "numeric": true, "name": "lastChop", "value": "1710565523762" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281c5": {
+        "position": { "x": 2432, "y": 2504 },
+        "mid": "6372b1e843d4e8dfd88281c5",
+        "entity": "ent_treeLand4v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596095283,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578095283" },
+            { "numeric": true, "name": "lastChop", "value": "1710569995283" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281ca": {
+        "position": { "x": 3136, "y": 2784 },
+        "mid": "6372b1e843d4e8dfd88281ca",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281d1": {
+        "position": { "x": 3136, "y": 2816 },
+        "mid": "6372b1e843d4e8dfd88281d1",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281ad": {
+        "position": { "x": 3960, "y": 2536 },
+        "mid": "6372b1e843d4e8dfd88281ad",
+        "entity": "ent_quonsethut",
+        "generic": {
+          "current": 0,
+          "state": "default",
+          "displayInfo": { "format": "", "values": [] },
+          "trackers": [],
+          "statics": []
+        }
+      },
+      "6372b1e843d4e8dfd88281b7": {
+        "position": { "x": 3144, "y": 1968 },
+        "mid": "6372b1e843d4e8dfd88281b7",
+        "entity": "ent_treeLand2v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596157678,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578157678" },
+            { "numeric": true, "name": "lastChop", "value": "1710570057678" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281c4": {
+        "position": { "x": 3032, "y": 1856 },
+        "mid": "6372b1e843d4e8dfd88281c4",
+        "entity": "ent_treeLand4v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596045897,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578045897" },
+            { "numeric": true, "name": "lastChop", "value": "1710569945897" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281d4": {
+        "position": { "x": 3136, "y": 2848 },
+        "mid": "6372b1e843d4e8dfd88281d4",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281c2": {
+        "position": { "x": 3792, "y": 1952 },
+        "mid": "6372b1e843d4e8dfd88281c2",
+        "entity": "ent_treeLand3v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710591625520,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710573625520" },
+            { "numeric": true, "name": "lastChop", "value": "1710565525520" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281c3": {
+        "position": { "x": 3328, "y": 2728 },
+        "mid": "6372b1e843d4e8dfd88281c3",
+        "entity": "ent_treeLand4v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596001262,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578001262" },
+            { "numeric": true, "name": "lastChop", "value": "1710569901262" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281cd": {
+        "position": { "x": 3040, "y": 2784 },
+        "mid": "6372b1e843d4e8dfd88281cd",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281d2": {
+        "position": { "x": 3008, "y": 2816 },
+        "mid": "6372b1e843d4e8dfd88281d2",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281d6": {
+        "position": { "x": 3072, "y": 2848 },
+        "mid": "6372b1e843d4e8dfd88281d6",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281dc": {
+        "position": { "x": 3008, "y": 2880 },
+        "mid": "6372b1e843d4e8dfd88281dc",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281b1": {
+        "position": { "x": 3688, "y": 2768 },
+        "mid": "6372b1e843d4e8dfd88281b1",
+        "entity": "ent_treeLand1v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596206718,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578206718" },
+            { "numeric": true, "name": "lastChop", "value": "1710570106718" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281be": {
+        "position": { "x": 3592, "y": 2008 },
+        "mid": "6372b1e843d4e8dfd88281be",
+        "entity": "ent_treeLand3v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596115863,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578115863" },
+            { "numeric": true, "name": "lastChop", "value": "1710570015863" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281c7": {
+        "position": { "x": 3136, "y": 3024 },
+        "mid": "6372b1e843d4e8dfd88281c7",
+        "entity": "ent_treeLand4v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710595991211,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710577991211" },
+            { "numeric": true, "name": "lastChop", "value": "1710569891211" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281cc": {
+        "position": { "x": 3072, "y": 2784 },
+        "mid": "6372b1e843d4e8dfd88281cc",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281d7": {
+        "position": { "x": 3040, "y": 2848 },
+        "mid": "6372b1e843d4e8dfd88281d7",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281d3": {
+        "position": { "x": 3008, "y": 2848 },
+        "mid": "6372b1e843d4e8dfd88281d3",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281c6": {
+        "position": { "x": 3744, "y": 2856 },
+        "mid": "6372b1e843d4e8dfd88281c6",
+        "entity": "ent_treeLand4v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596210070,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578210070" },
+            { "numeric": true, "name": "lastChop", "value": "1710570110070" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281d8": {
+        "position": { "x": 3040, "y": 2880 },
+        "mid": "6372b1e843d4e8dfd88281d8",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281c8": {
+        "position": { "x": 2880, "y": 1968 },
+        "mid": "6372b1e843d4e8dfd88281c8",
+        "entity": "ent_treeLand4v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596056600,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578056600" },
+            { "numeric": true, "name": "lastChop", "value": "1710569956600" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281c9": {
+        "position": { "x": 3008, "y": 2784 },
+        "mid": "6372b1e843d4e8dfd88281c9",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281d9": {
+        "position": { "x": 3072, "y": 2880 },
+        "mid": "6372b1e843d4e8dfd88281d9",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281ab": {
+        "position": { "x": 2976, "y": 2980 },
+        "mid": "6372b1e843d4e8dfd88281ab",
+        "entity": "ent_coop",
+        "generic": {
+          "current": 0,
+          "state": "empty",
+          "displayInfo": { "format": "Add Fowl", "values": [], "utcTarget": 0 },
+          "trackers": [
+            { "numeric": true, "name": "chickens", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1668461030829" },
+            { "numeric": true, "name": "clicks", "value": "0" },
+            { "numeric": true, "name": "rare", "value": "0" }
+          ],
+          "statics": []
+        }
+      },
+      "6372b1e843d4e8dfd88281ae": {
+        "position": { "x": 3248, "y": 3176 },
+        "mid": "6372b1e843d4e8dfd88281ae",
+        "entity": "ent_gate",
+        "generic": {
+          "current": 0,
+          "state": "open",
+          "displayInfo": { "format": "", "values": [] },
+          "trackers": [],
+          "statics": []
+        }
+      },
+      "6372b1e843d4e8dfd88281b8": {
+        "position": { "x": 2856, "y": 1888 },
+        "mid": "6372b1e843d4e8dfd88281b8",
+        "entity": "ent_treeLand2v1",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596262358,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578262358" },
+            { "numeric": true, "name": "lastChop", "value": "1710570162358" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281cf": {
+        "position": { "x": 3072, "y": 2816 },
+        "mid": "6372b1e843d4e8dfd88281cf",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281db": {
+        "position": { "x": 3136, "y": 2880 },
+        "mid": "6372b1e843d4e8dfd88281db",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281b0": {
+        "position": { "x": 3472, "y": 3316 },
+        "mid": "6372b1e843d4e8dfd88281b0",
+        "entity": "ent_rightroad",
+        "label": "right",
+        "generic": {
+          "current": 0,
+          "state": "ready",
+          "displayInfo": { "format": "", "values": [] },
+          "trackers": [],
+          "statics": [{ "numeric": true, "name": "farm", "value": "0" }]
+        }
+      },
+      "6372b1e843d4e8dfd88281c0": {
+        "position": { "x": 3824, "y": 2000 },
+        "mid": "6372b1e843d4e8dfd88281c0",
+        "entity": "ent_treeLand3v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596128027,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578128027" },
+            { "numeric": true, "name": "lastChop", "value": "1710570028027" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281cb": {
+        "position": { "x": 3104, "y": 2784 },
+        "mid": "6372b1e843d4e8dfd88281cb",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281af": {
+        "position": { "x": 3152, "y": 3324 },
+        "mid": "6372b1e843d4e8dfd88281af",
+        "entity": "ent_leftroad",
+        "label": "left",
+        "generic": {
+          "current": 0,
+          "state": "ready",
+          "displayInfo": { "format": "", "values": [] },
+          "trackers": [],
+          "statics": [{ "numeric": true, "name": "farm", "value": "0" }]
+        }
+      },
+      "6372b1e843d4e8dfd88281b3": {
+        "position": { "x": 2984, "y": 1992 },
+        "mid": "6372b1e843d4e8dfd88281b3",
+        "entity": "ent_treeLand1v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596164072,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578164072" },
+            { "numeric": true, "name": "lastChop", "value": "1710570064072" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281bb": {
+        "position": { "x": 3488, "y": 2976 },
+        "mid": "6372b1e843d4e8dfd88281bb",
+        "entity": "ent_treeLand2v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596192124,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578192124" },
+            { "numeric": true, "name": "lastChop", "value": "1710570092124" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281b6": {
+        "position": { "x": 3192, "y": 1896 },
+        "mid": "6372b1e843d4e8dfd88281b6",
+        "entity": "ent_treeLand1v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596042423,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578042423" },
+            { "numeric": true, "name": "lastChop", "value": "1710569942423" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281c1": {
+        "position": { "x": 3680, "y": 2000 },
+        "mid": "6372b1e843d4e8dfd88281c1",
+        "entity": "ent_treeLand3v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596131956,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578131956" },
+            { "numeric": true, "name": "lastChop", "value": "1710570031956" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281d5": {
+        "position": { "x": 3104, "y": 2848 },
+        "mid": "6372b1e843d4e8dfd88281d5",
+        "player": "62b4f7bb82349264a20b533b",
+        "entity": "ent_soil",
+        "soil": { "state": "normal" }
+      },
+      "6372b1e843d4e8dfd88281ba": {
+        "position": { "x": 3952, "y": 2184 },
+        "mid": "6372b1e843d4e8dfd88281ba",
+        "entity": "ent_treeLand2v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596223505,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578223505" },
+            { "numeric": true, "name": "lastChop", "value": "1710570123505" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281bc": {
+        "position": { "x": 3072, "y": 2048 },
+        "mid": "6372b1e843d4e8dfd88281bc",
+        "entity": "ent_treeLand2v3",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596150686,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578150686" },
+            { "numeric": true, "name": "lastChop", "value": "1710570050686" }
+          ]
+        }
+      },
+      "6372b1e843d4e8dfd88281bf": {
+        "position": { "x": 3528, "y": 1944 },
+        "mid": "6372b1e843d4e8dfd88281bf",
+        "entity": "ent_treeLand3v2",
+        "generic": {
+          "current": 4,
+          "state": "sapling1",
+          "displayInfo": { "format": "", "values": [], "utcTarget": 0 },
+          "utcRefresh": 1710596118123,
+          "trackers": [],
+          "statics": [
+            { "numeric": true, "name": "chops", "value": "0" },
+            { "numeric": true, "name": "lastTimer", "value": "1710578118123" },
+            { "numeric": true, "name": "lastChop", "value": "1710570018123" }
+          ]
+        }
+      },
+      "6525c0aaf519f58048d833ef": {
+        "position": { "x": 3283.5, "y": 3381 },
+        "mid": "6525c0aaf519f58048d833ef",
+        "entity": "ent_roadtv",
+        "generic": {
+          "current": 0,
+          "state": "default",
+          "displayInfo": { "format": "", "values": [] },
+          "trackers": [],
+          "statics": []
+        }
+      }
+    },
+    "levels": {
+      "farming": {
+        "level": 2,
+        "exp": 16706.700000000274,
+        "totalExp": 48306.70000000036
+      },
+      "forestry": { "level": 1, "exp": 8766, "totalExp": 18766 },
+      "aviculture": { "level": 1, "exp": 1153, "totalExp": 11153 },
+      "petcare": { "level": 0, "exp": 1, "totalExp": 1 }
+    },
+    "storage": {
+      "size": 18,
+      "removeOnly": true,
+      "slots": {
+        "0": { "slot": 0, "item": "itm_cloverFruit", "quantity": 13 },
+        "1": { "slot": 1, "item": "itm_grainbow", "quantity": 16 },
+        "2": { "slot": 2, "item": "itm_butterberry", "quantity": 14 },
+        "3": { "slot": 3, "item": "itm_wood", "quantity": 999 },
+        "4": { "slot": 4, "item": "itm_popberryFruit", "quantity": 79 },
+        "5": { "slot": 5, "item": "itm_egg", "quantity": 40 },
+        "6": { "slot": 6, "item": "itm_hard_wood", "quantity": 30 },
+        "7": { "slot": 7, "item": "itm_grumpkinFruit", "quantity": 8 },
+        "8": { "slot": 8, "item": "itm_scarrotFruit", "quantity": 2 },
+        "9": { "slot": 9, "item": "itm_eggsplosive", "quantity": 1 },
+        "10": { "slot": 10, "item": "itm_grumpkinSeeds", "quantity": 3 },
+        "11": { "slot": 11, "item": "itm_tree_sap", "quantity": 3 },
+        "12": { "slot": 12, "item": "itm_wood", "quantity": 725 },
+        "13": { "slot": 13, "item": "itm_heartbeetFruit", "quantity": 1 }
+      }
+    },
+    "mpSell": 500,
+    "mpBuy": 500
+  }
+  

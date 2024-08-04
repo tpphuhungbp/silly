@@ -1,0 +1,98 @@
+{
+  "str_bucksGalore": {
+    "nextReset": 1713398400000,
+    "orders": [
+      {
+        "blueprintId": "sob_sob_ch1_turd",
+        "request": { "itemId": "itm_turd", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 10 },
+          "skill": { "skillType": "petcare", "xp": 10 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      },
+      {
+        "blueprintId": "sob_sob_ch1_iron_ore",
+        "request": { "itemId": "itm_Iron_Ore", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 20 },
+          "skill": { "skillType": "mining", "xp": 20 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      },
+      {
+        "blueprintId": "sob_sob_ch1_turd",
+        "request": { "itemId": "itm_turd", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 10 },
+          "skill": { "skillType": "petcare", "xp": 10 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      },
+      {
+        "blueprintId": "sob_sob_ch1_popberrypie",
+        "request": { "itemId": "itm_popberryPie", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 120 },
+          "skill": { "skillType": "cooking", "xp": 120 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      },
+      {
+        "blueprintId": "sob_sob_ch1_popberryfruit",
+        "request": { "itemId": "itm_popberryFruit", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 40 },
+          "skill": { "skillType": "farming", "xp": 40 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713370271058
+      },
+      {
+        "blueprintId": "sob_sob_ch1_turd",
+        "request": { "itemId": "itm_turd", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 10 },
+          "skill": { "skillType": "petcare", "xp": 10 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      },
+      {
+        "blueprintId": "sob_sob_ch1_turd",
+        "request": { "itemId": "itm_turd", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 10 },
+          "skill": { "skillType": "petcare", "xp": 10 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      },
+      {
+        "blueprintId": "sob_sob_ch1_stick",
+        "request": { "itemId": "itm_stick", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 20 },
+          "skill": { "skillType": "woodwork", "xp": 20 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      },
+      {
+        "blueprintId": "sob_sob_ch1_turd",
+        "request": { "itemId": "itm_turd", "quantity": 10 },
+        "reward": {
+          "currency": { "currencyId": "cur_coins", "amount": 10 },
+          "skill": { "skillType": "petcare", "xp": 10 }
+        },
+        "cooldown": 300000,
+        "startedAt": 1713369103490
+      }
+    ],
+    "missingMembershipOrders": []
+  }
+}

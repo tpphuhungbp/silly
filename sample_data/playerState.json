@@ -1,0 +1,218 @@
+{
+    "cryptoWallets": [],
+    "godmode": false,
+    "modmode": false,
+    "levels": {
+      "farming": { "level": 0, "exp": 40.5, "totalExp": 40.5 },
+      "forestry": { "level": 1, "exp": 28, "totalExp": 128 },
+      "cooking": { "level": 1, "exp": 30, "totalExp": 130 },
+      "woodwork": { "level": 1, "exp": 138, "totalExp": 238 }
+    },
+    "createdAt": 1712719524476,
+    "coinInventory": [
+      { "currencyId": "cur_polygon_berry", "balance": 0 },
+      { "currencyId": "cur_pixel", "balance": 0 },
+      { "currencyId": "cur_cyber", "balance": 0 },
+      { "currencyId": "cur_nana", "balance": 0 },
+      { "currencyId": "cur_pepe", "balance": 0 },
+      { "currencyId": "cur_other", "balance": 0 },
+      { "currencyId": "cur_berry", "balance": 0 },
+      { "currencyId": "cur_wron", "balance": 0 },
+      { "currencyId": "cur_coins", "balance": 26 },
+      { "currencyId": "cur_ape", "balance": 0 }
+    ],
+    "energy": { "level": 999.09, "updatedAt": 1713196387895 },
+    "inventory": {
+      "size": 18,
+      "baseSize": 18,
+      "slots": {
+        "0": { "slot": 0, "item": "itm_rustyWateringCan", "quantity": 1 },
+        "1": { "slot": 1, "item": "itm_axe", "quantity": 1 },
+        "2": { "slot": 2, "item": "itm_shears", "quantity": 1 },
+        "4": { "slot": 4, "item": "itm_popberryFruit", "quantity": 10 },
+        "5": { "slot": 5, "item": "itm_wood", "quantity": 9 },
+        "6": { "slot": 6, "item": "itm_energyDrink", "quantity": 1 },
+        "7": { "slot": 7, "item": "itm_popberryPie", "quantity": 1 },
+        "8": { "slot": 8, "item": "itm_egg", "quantity": 2 },
+        "9": { "slot": 9, "item": "itm_stick", "quantity": 17 }
+      },
+      "activeRow": 0,
+      "wardrobeItems": []
+    },
+    "quests": {
+      "qst_barneyTutorial": {
+        "mid": "6616077b18efe6d5e7a76c25",
+        "questId": "qst_barneyTutorial",
+        "quest": "629d258e85d42abe91d15a64",
+        "player": "661606a46afcbf827f54cd3b",
+        "isComplete": true,
+        "createdAt": 1712720277331,
+        "updatedAt": 1712743635524,
+        "completedSteps": [{ "step": 11, "completedAt": 1712743633964 }]
+      },
+      "qst_RangerDale": {
+        "mid": "661664d1f26d9eb65aa3cce4",
+        "questId": "qst_RangerDale",
+        "quest": "62f5a12eb62de2f5a37e1694",
+        "player": "661606a46afcbf827f54cd3b",
+        "isComplete": true,
+        "createdAt": 1712743635525,
+        "updatedAt": 1712744091210,
+        "completedSteps": [{ "step": 1, "completedAt": 1712743650708 }]
+      },
+      "qst_HazelsShop": {
+        "mid": "6616651b26251ca8a7a4a7ee",
+        "questId": "qst_HazelsShop",
+        "quest": "630374a6410f454d143d0cfb",
+        "player": "661606a46afcbf827f54cd3b",
+        "isComplete": true,
+        "createdAt": 1712744091212,
+        "updatedAt": 1712744463822,
+        "completedSteps": []
+      },
+      "qst_axeTutorial": {
+        "mid": "6616679c42031ee0eaba3290",
+        "questId": "qst_axeTutorial",
+        "quest": "636eed43e6b7a954a1a361b0",
+        "player": "661606a46afcbf827f54cd3b",
+        "isComplete": true,
+        "createdAt": 1712744463822,
+        "updatedAt": 1712752668675,
+        "completedSteps": [{ "step": 1, "completedAt": 1712752413038 }]
+      },
+      "qst_cookingTutorial": {
+        "mid": "661687816f3c11a148fd52b7",
+        "questId": "qst_cookingTutorial",
+        "quest": "63731697431a43e0c01c5f05",
+        "player": "661606a46afcbf827f54cd3b",
+        "isComplete": true,
+        "createdAt": 1712752668677,
+        "updatedAt": 1712752889060,
+        "completedSteps": [{ "step": 1, "completedAt": 1712752805767 }]
+      },
+      "qst_woodworkingTutorial": {
+        "mid": "661687816f3c11a148fd52b8",
+        "questId": "qst_woodworkingTutorial",
+        "quest": "63731bd6431a43e0c01c6082",
+        "player": "661606a46afcbf827f54cd3b",
+        "isComplete": true,
+        "createdAt": 1712752668677,
+        "updatedAt": 1712804772072,
+        "completedSteps": [{ "step": 4, "completedAt": 1712804574121 }]
+      }
+    },
+    "entities": {
+      "661d00a78e1193a5dc15d4f4": {
+        "mid": "661d00a78e1193a5dc15d4f4",
+        "mapEntity_id": "6372b104f4326e8d9ea4dde4",
+        "world": 0,
+        "entity": "ent_windmill",
+        "player": "661606a46afcbf827f54cd3b",
+        "mapId": "pixelsNFTFarm-2173",
+        "generic": {
+          "current": 0,
+          "state": "busy",
+          "displayInfo": {
+            "format": "In Use By {0}",
+            "values": ["Jaceqt CC 2314"],
+            "utcTarget": 1713196592257
+          },
+          "utcRefresh": 1713196592257,
+          "trackers": [
+            { "numeric": false, "name": "myCraftItem", "value": "" },
+            { "numeric": true, "name": "myQuantity", "value": "0" },
+            { "numeric": true, "name": "myCraftFinish", "value": "0" }
+          ]
+        }
+      },
+      "661d00a78e1193a5dc15d4f5": {
+        "mid": "661d00a78e1193a5dc15d4f5",
+        "mapEntity_id": "6372b104f4326e8d9ea4dde7",
+        "world": 0,
+        "entity": "ent_gate",
+        "player": "661606a46afcbf827f54cd3b",
+        "mapId": "pixelsNFTFarm-2173",
+        "generic": { "current": 0, "state": "open", "displayInfo": { "format": "", "values": [] }, "trackers": [] }
+      },
+      "661d04028e1193a5dc172f05": {
+        "mid": "661d04028e1193a5dc172f05",
+        "mapEntity_id": "65b6c1d0d37bd2fb75ccefed",
+        "world": 0,
+        "entity": "ent_cropPopberry",
+        "player": "661606a46afcbf827f54cd3b",
+        "mapId": "pixelsNFTFarm-2173",
+        "crop": {
+          "canHarvest": true,
+          "state": "ripe",
+          "soilState": "normalTilledWet",
+          "ageMinutes": 0.5393966666666665,
+          "waterLevel": 99.94654906894
+        }
+      },
+      "661d05c88e1193a5dc17e1a3": {
+        "mid": "661d05c88e1193a5dc17e1a3",
+        "mapEntity_id": "65b6c1d2d37bd2fb75ccf053",
+        "world": 0,
+        "entity": "ent_cropPopberry",
+        "player": "661606a46afcbf827f54cd3b",
+        "mapId": "pixelsNFTFarm-2173",
+        "crop": {
+          "canHarvest": true,
+          "state": "ripe",
+          "soilState": "normalTilledWet",
+          "ageMinutes": 0.5393966666666665,
+          "waterLevel": 99.94654906894
+        }
+      },
+      "661d09528e1193a5dc195b41": {
+        "mid": "661d09528e1193a5dc195b41",
+        "mapEntity_id": "65b6c1d1d37bd2fb75ccf01b",
+        "world": 0,
+        "entity": "ent_cropPopberry",
+        "player": "661606a46afcbf827f54cd3b",
+        "mapId": "pixelsNFTFarm-2173",
+        "crop": {
+          "canHarvest": true,
+          "state": "ripe",
+          "soilState": "normalTilledWet",
+          "ageMinutes": 0.5393966666666665,
+          "waterLevel": 99.94654906894
+        }
+      }
+    },
+    "achievements": {
+      "ach_Popberry_Pie": {
+        "achievementId": "ach_Popberry_Pie",
+        "numComplete": 1,
+        "numUsed": 1,
+        "collectionItems": [],
+        "isFavorite": false,
+        "createdAt": 1712752840017,
+        "updatedAt": 1712752867669
+      },
+      "ach_Stick": {
+        "achievementId": "ach_Stick",
+        "numComplete": 1,
+        "numUsed": 25,
+        "collectionItems": [],
+        "isFavorite": false,
+        "createdAt": 1712752971123,
+        "updatedAt": 1712804443545
+      },
+      "ach_Wooden_Stool": {
+        "achievementId": "ach_Wooden_Stool",
+        "numComplete": 1,
+        "numUsed": 1,
+        "collectionItems": [],
+        "isFavorite": false,
+        "createdAt": 1712804410336,
+        "updatedAt": 1712804517714
+      }
+    },
+    "farms": [],
+    "bookmarks": { "size": 3, "baseSize": 3, "bookmarkedMaps": [] },
+    "tosVersion": 1712719688126,
+    "guildMember": false,
+    "messages": 0,
+    "pet": {}
+}
